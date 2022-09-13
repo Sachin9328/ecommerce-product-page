@@ -5,10 +5,10 @@ let closeMenuIcon = document.getElementById("close-menu-icon");
 
 menuIcon.addEventListener("click", (e) => {
     e.preventDefault();
-    // body.classList.toggle("overflowHidden");
     menu.style.display = "block";
 })
 
-closeMenuIcon.addEventListener("click", () => {
+closeMenuIcon.addEventListener("click", (e) => {
+    e.preventDefault();
     menu.style.display = "none";    
 })

@@ -21,7 +21,7 @@ body, body * {
 body {
     font-family: 'Kumbh Sans', sans-serif;
 }
-    
+
 .orange-text {
     color: var(--primary-orange-900);
 }
@@ -58,14 +58,14 @@ nav img + img, nav a + img {
         left: 0;
     z-index: 1;
     background-color: rgba(0, 0, 0, .75);
+    height: 100%;
     width: 100vw;
-    height: 100vh;
 }
 
 .mobile-menu-inner {
     background-color: var(--neutral-100);
     padding: 1.5em;
-    height: 100vh;
+    height: 100%;
     width: 67vw;
 }
 
